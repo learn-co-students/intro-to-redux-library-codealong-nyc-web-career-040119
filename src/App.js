@@ -8,6 +8,8 @@ class App extends Component {
 	};
 
 	render() {
+		// console.log("App props", this.props);
+		// console.log("App state", this.state);
 		return (
 			<div className="App">
 				<button onClick={this.handleOnClick}>Click</button>
