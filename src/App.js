@@ -33,3 +33,6 @@ export default connect(
 	mapStateToProps,
 	mapDispatchToProps
 )(App);
+
+
+//to gain access to store somewhere in our app, we suer a second function provided by react-redux, connect
